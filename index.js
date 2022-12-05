@@ -5,7 +5,9 @@ const getPokemonById = require("./route/controller");
 
 const app = express();
 
+const cors = require('cors')
 
+app.use(cors({origin:"*", optionsSuccessStatus: 200}))
 
 
 app.get("/pokemon", (req, res) => {
