@@ -1,0 +1,1 @@
+// import mongoose and create schema in the db
